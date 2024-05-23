@@ -6,7 +6,7 @@ import {
   useCallback,
 } from "react";
 
-const BASE_URL = "https://worldwise-jonas.netlify.app/";
+const BASE_URL = "https://api.jsonbin.io/v3/b/664ec702ad19ca34f86dba93";
 
 const CitiesContext = createContext();
 
@@ -70,6 +70,7 @@ function CitiesProvider({ children }) {
     async function fetchCities() {
       dispatch({ type: "loading" });
       try {
+        console.log(BASE_URL);
         const res = await fetch(`${BASE_URL}/cities`);
         const data = await res.json();
         dispatch({ type: "cities/loaded", payload: data });
