@@ -47,6 +47,66 @@
         "lat": "32.7786152973071",
         "lng": "-96.79830551147461"
       }
+    },
+    {
+      "id": "99ff",
+      "cityName": "Cedrillas",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-05-23T04:03:31.331Z",
+      "notes": "",
+      "position": {
+        "lat": "40.442742367015384",
+        "lng": "-0.8514404296875"
+      }
+    },
+    {
+      "id": "03ca",
+      "cityName": "El Frasno",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-05-23T04:03:34.510Z",
+      "notes": "",
+      "position": {
+        "lat": "41.397401038594296",
+        "lng": "-1.4447021484375"
+      }
+    },
+    {
+      "id": "3121",
+      "cityName": "In Salah",
+      "country": "Algeria",
+      "emoji": "🇩🇿",
+      "date": "2024-05-23T04:03:43.130Z",
+      "notes": "",
+      "position": {
+        "lat": "27.839076094777816",
+        "lng": "2.2851562500000004"
+      }
+    },
+    {
+      "id": "93ce",
+      "cityName": "Atlanta",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-05-23T04:03:53.429Z",
+      "notes": "",
+      "position": {
+        "lat": "33.906895551288684",
+        "lng": "-84.68261718750001"
+      }
+    },
+    {
+      "id": "1a83",
+      "cityName": "District 4",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-05-23T04:03:56.342Z",
+      "notes": "",
+      "position": {
+        "lat": "36.27970720524017",
+        "lng": "-85.55053710937501"
+      }
     }
   ]
 }
