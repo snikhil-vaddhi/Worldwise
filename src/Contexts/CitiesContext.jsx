@@ -51,7 +51,7 @@ function reducer(state, action) {
     case "rejected":
       return {
         ...state,
-        isloading: false,
+        isLoading: false,
         error: action.payload,
       };
 
@@ -85,7 +85,7 @@ function CitiesProvider({ children }) {
 
   const getCity = useCallback(
     async function getCity(id) {
-      if (+id === currentCity.id) return;
+      if (Number(id) === currentCity.id) return;
       dispatch({ type: "loading" });
       try {
         const res = await fetch(`${BASE_URL}/cities/${id}`);
